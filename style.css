@@ -1,0 +1,101 @@
+body{
+    margin: 0 auto;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+   align-items: center;
+
+    margin-top: 150px;
+   
+   background-image: url(https://cojo.ru/wp-content/uploads/2022/12/chasy-novogodnie-37.webp);
+  background-position: 0%;
+
+   background-size: cover;
+  
+}
+    .container {
+    width: 1200px;
+    }
+
+#time {
+   
+    text-align: center;
+  padding: 20px;
+    width: 400px;
+    height: 200px;
+
+    border: none;
+    background-image: radial-gradient(circle, #5c0067 0%,black 100%);
+    box-shadow: 0px 0px 20px 20px blueviolet;
+    color:chocolate;
+    font-size: 60px;
+   text-transform: capitalize;
+}
+#time:hover  {
+box-shadow: 0px 0px 20px 20px gray;
+background:violet;
+color: brown;
+}
+#relax {
+  margin-bottom: 35px;
+  padding: 20px;
+  
+    color:brown;
+   text-transform: lowercase;
+    font-size: 100px;
+}
+@media (max-width:960px) {
+    body {
+        margin: 100px;
+    }
+}
+@media (max-width:650px) {
+    body {
+        margin: 100px;
+    }
+    #time {
+        width: 300px;
+    }
+    #relax {
+        font-size: 80px;
+    }
+}
+@media (max-width:650px) {
+    body {
+        margin: 100px;
+    }
+    #time {
+        width: 250px;
+        height: 170px;
+    }
+    #relax {
+        font-size: 60px;
+    }
+}
+@media (max-width:400px) {
+    body {
+        margin: 100px;
+    }
+    #time {
+        width: 250px;
+        height: 140px;
+        font-size: 30px;
+    }
+    #relax {
+        font-size: 60px;
+    }
+}
+@media (max-width:350px) {
+    body {
+        margin: 100px;
+    }
+    #time {
+        width: 200px;
+        height: 90px;
+        font-size: 30px;
+    }
+    #relax {
+        font-size: 40px;
+        color: aqua;
+    }
+}
